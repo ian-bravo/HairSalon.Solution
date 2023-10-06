@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.27, for macos11 (x86_64)
 --
--- Host: localhost    Database: hair_salon
+-- Host: localhost    Database: ian_bravo
 -- ------------------------------------------------------
 -- Server version	8.0.27
 
@@ -54,4 +54,4 @@ CREATE TABLE `stylists` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-10-06 10:56:02
+-- Dump completed on 2023-10-06 14:52:21

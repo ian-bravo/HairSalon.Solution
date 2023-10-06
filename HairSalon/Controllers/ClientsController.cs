@@ -39,7 +39,7 @@ namespace HairSalon.Controllers
       }
       _db.Clients.Add(client);
       _db.SaveChanges();
-      return RedirectToAction("Index");
+      return RedirectToAction("Index", "Stylists");
     }
   }
 }
