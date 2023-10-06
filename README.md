@@ -3,7 +3,7 @@
 
 #### By _**Ian Bravo**_
 
-#### _This web application will..._
+#### _This web application will allow Claire, a hair salon owner, to manage her stylists and clients in an easy to use web application._
 
 ## GitHub Page ##
 
@@ -23,7 +23,7 @@ https://ian-bravo.github.io/HairSalon.Solution/
 
 ## Description
 
-This C# web application will...
+This C# web application will allow Claire to view her employees (stylists) and their respective clients. Claire will be able to add new stylists for her staffing needs. Claire can select a specific stylist to view their specialties (description) along with their clients. Claire can also add new clients but not without first assigning a stylist to that client. 
 
 ## Setup/Installation Requirements
 
@@ -58,9 +58,12 @@ Setup/Import the Database:
 6. Navigate to the tab called Import Progress and click "Start Import" at the bottom right corner of the window.
 
 Running the program:
-1. Navigate to the project's production directory "Restaurants" using the terminal.
+1. Navigate to the project's production directory "Hair Salon" using the terminal.
 2. Within the command line, run the command `dotnet watch run` to compile and execute the console application in developer mode.
 
+## Schema
+
+<img src="HairSalon_Schema.png" alt="schema">
 
 ## Known Bugs
 
@@ -71,7 +74,7 @@ Running the program:
 
 MIT License  
 
-Copyright (c) 29-Sep-2023 Ian Bravo  
+Copyright (c) 06-Oct-2023 Ian Bravo  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  
 
@@ -83,4 +86,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 _For questions or concerns, please email me at bravo.ian@gmail.com_
 
-<p align="center"> <img src="schema.png" alt="schema"> </p>
