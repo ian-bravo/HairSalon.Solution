@@ -52,9 +52,9 @@ Cloning the Repo:
 Setup/Import the Database:
 1. Within MySQL Workbench's Navigator > Administration window, select Data Import/Restore.
 2. In Import Options select Import from Self-Contained File.
-3. Navigate to `ian_bravo.sql` file within the cloned HairSalon.Solution repo. 
+3. Navigate to the `ian_bravo.sql` file within the cloned HairSalon.Solution repo. 
 4. Under Default Schema to be Imported To, select the New button.
-5. Enter "[YOUR-DB-NAME]" and click OK. Replace [YOUR-DB-NAME] with the name of your database.
+5. Enter "[YOUR-DB-NAME]" and click OK. Replace "[YOUR-DB-NAME]" with the name of your database, which is also the same name within your appsettings.json file
 6. Navigate to the tab called Import Progress and click "Start Import" at the bottom right corner of the window.
 
 Running the program:
