@@ -5,11 +5,6 @@
 
 #### _This web application will allow Claire, a hair salon owner, to manage her stylists and clients in an easy to use web application._
 
-## GitHub Page ##
-
-https://ian-bravo.github.io/HairSalon.Solution/
-
-
 ## Technologies Used
 
 * _C# 10.0_
