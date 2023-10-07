@@ -14,6 +14,7 @@ https://ian-bravo.github.io/HairSalon.Solution/
 
 * _C# 10.0_
 * _HtmL_
+* _Bootstrap_
 * _.Net 6.0_
 * _ASP.NET Core MVC 6.0_
 * _Entity Framework Core_
@@ -23,7 +24,7 @@ https://ian-bravo.github.io/HairSalon.Solution/
 
 ## Description
 
-This C# web application will allow Claire to view her employees (stylists) and their respective clients. Claire will be able to add new stylists for her staffing needs. Claire can select a specific stylist to view their specialties (description) along with their clients. Claire can also add new clients but not without first assigning a stylist to that client. 
+This C# web application will allow Claire to view her employees (stylists) and their respective clients. Claire will be able to add new stylists according to her staffing needs. Claire can select a specific stylist to view their specialties (description) along with their clients. Claire can also add new clients only after making a stylist to the web application. 
 
 ## Setup/Installation Requirements
 
@@ -37,7 +38,7 @@ Cloning the Repo:
 3. Input the following command into your terminal:  
  `$ git clone https://github.com/ian-bravo/HairSalon.Solution.git`
 4. Using the terminal, navigate to the production directory: "HairSalon" and create a new file called appsettings.json
-5. Within appsettings.json, put in the following code while also replacing the following values with your own:
+5. Within appsettings.json, put in the following code while also replacing the following values with your own values as shown below the code snippet:
 ```json
 {
   "ConnectionStrings": {
@@ -51,10 +52,10 @@ Cloning the Repo:
 
 Setup/Import the Database:
 1. Within MySQL Workbench's Navigator > Administration window, select Data Import/Restore.
-2. In Import Options select Import from Self-Contained File.
+2. In Import Options select "Import from Self-Contained File".
 3. Navigate to the `ian_bravo.sql` file within the cloned HairSalon.Solution repo. 
-4. Under Default Schema to be Imported To, select the New button.
-5. Enter "[YOUR-DB-NAME]" and click OK. Replace "[YOUR-DB-NAME]" with the name of your database, which is also the same name within your appsettings.json file
+4. Under the 'Default Schema to be Imported To' section, select the New button.
+5. Enter "[YOUR-DB-NAME]" and click OK. Replace "[YOUR-DB-NAME]" with the same name within your appsettings.json file
 6. Navigate to the tab called Import Progress and click "Start Import" at the bottom right corner of the window.
 
 Running the program:
